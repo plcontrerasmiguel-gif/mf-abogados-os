@@ -1,0 +1,7 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Fabiana Legal & Business OS Ultra</title><link rel="manifest" href="manifest.json"><link rel="stylesheet" href="styles.css"></head><body>
+<div id="app">
+<aside class="sidebar"><div class="brand"><div class="logo">⚖️</div><div><b>Fabiana OS</b><span>Legal & Business Ultra</span></div></div><nav id="nav"></nav><div class="side-actions"><button onclick="toggleTheme()">🌙 Modo</button><button onclick="exportData()">⬇ Respaldo</button><label class="import">⬆ Importar<input type="file" onchange="importData(event)" hidden></label></div></aside>
+<main><header><div><h1 id="pageTitle">Dashboard Ejecutivo</h1><p id="pageSub">Centro de mando jurídico, financiero y auditoría</p></div><div class="top"><button onclick="seedDemo()">✨ Datos ejemplo</button><button onclick="notifyMe()">🔔 Avisos</button><button onclick="openModal('quick')">＋ Nuevo</button></div></header><section id="content"></section></main>
+</div>
+<div id="modal" class="modal"><div class="modal-card"><button class="x" onclick="closeModal()">×</button><div id="modalBody"></div></div></div>
+<script src="app.js"></script></body></html>
